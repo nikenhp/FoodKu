@@ -1,59 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
-    android:orientation="vertical">
-
-    <LinearLayout
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="80dp"
-        android:layout_gravity="center">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/logo3" />
-
-
-    </LinearLayout>
+    tools:context=".PesananFragment"
+    android:background="@drawable/bg1">
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
         android:layout_gravity="center"
+        android:elevation="4dp"
         android:orientation="vertical"
         android:padding="20dp">
 
         <EditText
-            android:id="@+id/txtEmail"
+            android:id="@+id/txtPelanggan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="email" />
+            android:hint="NamaPemesan" />
 
         <EditText
-            android:id="@+id/txtPassword"
+            android:id="@+id/txtMeja"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
-            android:hint="password" />
+            android:hint="No. Meja"
+            android:inputType="number"/>
 
         <Button
-            android:id="@+id/btnMasuk"
+            android:id="@+id/btnOrder"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:background="@color/colorPrimaryDark"
-            android:text="Masuk"
+            android:text="Lanjut Order"
             android:textAllCaps="false"
             android:textColor="#fff"
             android:textSize="18sp" />
 
     </LinearLayout>
 
-</LinearLayout>
+</FrameLayout>

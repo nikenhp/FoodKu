@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp">
+        <TableRow>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="No. Pemesanan               "
+                android:textColor="#198C6A" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text=" :        "/>
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/tvId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="6"
+                android:textColor="#A50A1F" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nama              "/>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text=" : "/>
+            <TextView
+                android:id="@+id/tvPelanggan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Capten Amerika"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="No Meja               " />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text=" :        "/>
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/tvMeja"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="6" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tanggal               " />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text=" :        "/>
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/tvTanggal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="08-08-98" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Total               " />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text=" :        "/>
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/tvTotal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="6" />
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.v7.widget.CardView>
